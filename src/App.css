@@ -23,7 +23,7 @@ body {
 }
 
 .stopwatch {
-  padding: 60px 0px;
+  padding: 30px 0px;
   text-align: center;
 }
 .stopwatch span {
@@ -45,7 +45,8 @@ body {
   padding: 12px 20px;
   font-size: 16px;
   text-transform: uppercase;
-  width: 150px;
+  border-radius: 50%;
+  /* width: 150px; */
   transition: background 0.2s;
   cursor: pointer;
 }
@@ -91,7 +92,9 @@ body {
   color: #00aba9;
   padding: 10px;
   font-size: 1vw;
-  width: 15vw;
+  width: 7vw;
+  min-width: 50px;
+  transition: background 0.2s;
 }
 
 .dropdown-content {
@@ -104,7 +107,8 @@ body {
 
 .dropdown-content li {
   text-align: center;
-  width: 15vw;
+  width: 7vw;
+  min-width: 50px;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -121,4 +125,5 @@ body {
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+  color: #fff;
 }
