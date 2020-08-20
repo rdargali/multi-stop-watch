@@ -89,16 +89,15 @@ body {
   border: 2px solid #00aba9;
   background: #fff;
   color: #00aba9;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  padding: 10px;
+  font-size: 1vw;
   width: 15vw;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #747474;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }

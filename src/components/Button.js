@@ -1,4 +1,5 @@
 import React from "react";
+import AlarmOnIcon from "@material-ui/icons/AlarmOn";
 
 function Button({ startTimer, status, stopTimer, resetTimer, resumeTimer }) {
   return (
@@ -8,7 +9,7 @@ function Button({ startTimer, status, stopTimer, resetTimer, resumeTimer }) {
           className="stopwatch-btn stopwatch-btn-gre"
           onClick={startTimer}
         >
-          Start
+          <AlarmOnIcon />
         </button>
       ) : (
         ""
