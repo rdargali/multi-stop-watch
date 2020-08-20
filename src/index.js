@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import Stopwatch from "./components/Stopwatch";
 import Dropdown from "./components/Dropdown";
 
 ReactDOM.render(
   <React.StrictMode>
     <Dropdown />
-    <App />
+    <Stopwatch />
   </React.StrictMode>,
   document.getElementById("root")
 );
