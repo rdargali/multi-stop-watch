@@ -3,7 +3,7 @@ import Display from "./components/Display";
 import Button from "./components/Button";
 import "./App.css";
 
-function App() {
+const App = () => {
   const [time, setTime] = useState({
     ms: 0,
     s: 0,
@@ -73,6 +73,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
