@@ -1,14 +1,12 @@
 import React from "react";
-import AddAlarm from "@material-ui/icons/AddAlarm";
+
 import "../App.css";
 
 const Dropdown = ({ setStopwatches }) => {
   return (
     <div>
       <div className="dropdown">
-        <button className="dropbtn">
-          <AddAlarm />
-        </button>
+        <button className="dropbtn">Timer</button>
         <ul className="dropdown-content">
           <li onClick={() => setStopwatches(1)}>1</li>
           <li onClick={() => setStopwatches(2)}>2</li>

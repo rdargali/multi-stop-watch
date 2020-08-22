@@ -1,6 +1,8 @@
 body {
   background: black;
   color: whitesmoke;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
+    "Bitstream Vera Sans Mono", monospace;
 }
 
 * {
@@ -48,7 +50,7 @@ body {
   padding: 12px 20px;
   font-size: 16px;
   text-transform: uppercase;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   /* width: 150px; */
   transition: background 0.2s;
   cursor: pointer;
@@ -68,6 +70,7 @@ body {
 }
 
 /* hover effects */
+
 /* .stopwatch .stopwatch-btn-red:hover {
   background: #ff652f;
   border: 2px solid #ff652f;
@@ -81,7 +84,6 @@ body {
 /* .stopwatch .stopwatch-btn-gre:hover {
   border: 2px solid #66fcf288;
 } */
-*/
 
 /* dropdown */
 
@@ -91,22 +93,18 @@ body {
 }
 
 .dropbtn {
-  border: 2px solid #00aba9;
-  background: #fff;
-  color: #00aba9;
+  background: #66fcf288;
+  color: black;
   padding: 10px;
-  font-size: 1vw;
+  font-size: 1.2vw;
   width: 7vw;
   min-width: 50px;
-  transition: background 0.2s;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #1f2833;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  background-color: #c5c6c7;
 }
 
 .dropdown-content li {
@@ -120,7 +118,7 @@ body {
 }
 
 .dropdown-content li:hover {
-  background-color: #c5c6c7;
+  background-color: #66fcf288;
 }
 
 .dropdown:hover .dropdown-content {
@@ -128,6 +126,6 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  /* background-color: #3e8e41; */
   color: #fff;
 }
